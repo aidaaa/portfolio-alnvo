@@ -1,0 +1,113 @@
+body {
+  transition: all 2s ease-out;
+}
+
+.activity_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 16px 24px;
+}
+.activity_header span {
+  color: #062664;
+  text-align: center;
+  font-family: Inter-Light;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+}
+
+.group_container {
+  width: 100%;
+  position: fixed;
+  background: #dbe0eb;
+  display: flex;
+  height: 53px;
+  padding: 4px;
+  align-items: center;
+  gap: 16px;
+  margin: 60px 0 0 24px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.group_container span {
+  color: #062664;
+  text-align: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 157.143% */
+}
+
+.group_container_active {
+  border-radius: 6px;
+  background: #a9b6d5;
+  width: 84px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal_line {
+  border-bottom: 1px solid #dbdbdb;
+  background: radial-gradient(
+    85.06% 85.05% at 49.87% 14.95%,
+    rgba(6, 38, 100, 0.25) 0%,
+    rgba(173, 201, 255, 0) 100%
+  );
+  margin-top: 130px;
+  position: fixed;
+  width: 100%;
+}
+
+.activity_list_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  margin-top: 160px;
+  align-items: start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.activity_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activity_card {
+  display: flex;
+  width: 341px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: 15px;
+  border-bottom: 1px solid #dbdbdb;
+  background: radial-gradient(
+    148.91% 112.02% at 6.16% 14.67%,
+    rgba(20, 73, 177, 0.2) 0%,
+    rgba(173, 201, 255, 0) 100%
+  );
+}
+
+.activity_list_container span {
+  color: #062664;
+  font-family: Inter-Light;
+  font-style: normal;
+  line-height: 22px; /* 157.143% */
+}

@@ -1,0 +1,54 @@
+.open_activity_card {
+  display: flex;
+  width: 341px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-direction: column;
+  border-radius: 15px;
+  border-bottom: 1px solid #dbdbdb;
+  background: radial-gradient(
+    148.91% 112.02% at 6.16% 14.67%,
+    rgba(20, 73, 177, 0.2) 0%,
+    rgba(173, 201, 255, 0) 100%
+  );
+}
+
+.activity_card_detail {
+  display: flex;
+  width: 341px;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: none;
+  background: unset;
+}
+
+.card_detail {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 12px;
+  flex-direction: column;
+  align-self: stretch;
+  border-radius: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  background: #bdcdf4;
+  backdrop-filter: blur(7.5px);
+}
+
+span {
+  color: #062664;
+  font-family: Inter-Light;
+  font-style: normal;
+  line-height: 22px; /* 157.143% */
+}
+
+.how_button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  background: #062664;
+  color: white;
+}
